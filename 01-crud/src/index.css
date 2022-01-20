@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #0f0e17;
+  color: #f25f4c;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  font-family: monospace;
+}
+
+h1,
+h2 {
+  color: #e53170;
+}
+
+input[type="text"] {
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.75rem;
+  outline: none;
+  display: block;
+  width: 80%;
+  margin: 1rem auto;
+  font-size: .8rem;
+  line-height: 1;
+  background-color: #fff;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem 0 0;
+  display: inline-block;
+  background-color: #ff8906;
+  color: #fffffe;
+  font-weight: bold;
+  font-size: .8rem;
+  line-height: 1;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+form {
+  margin-bottom: 1rem;
+}
+
+hr {
+  margin: 2rem auto;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  border-bottom: thin solid #a7a9be;
+}
+
+.btn-delete {
+    background-color: red;
+    border: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .grid-1-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+        gap: 2rem;
+    }
+}
