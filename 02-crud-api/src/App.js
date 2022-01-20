@@ -1,9 +1,11 @@
+import React from 'react';
+import CrudApi from './components/CrudApi';
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Hola</h1>
+      <CrudApi />
     </div>
   );
 }

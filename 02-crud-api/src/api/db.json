@@ -1,0 +1,54 @@
+{
+  "clubes": [
+    {
+      "id": 1,
+      "name": "Velez",
+      "color": "Azul"
+    },
+    {
+      "id": 2,
+      "name": "Boca",
+      "color": "Azul"
+    },
+    {
+      "id": 3,
+      "name": "River",
+      "color": "Rojo"
+    },
+    {
+      "id": 4,
+      "name": "Independiente",
+      "color": "Rojo"
+    },
+    {
+      "id": 5,
+      "name": "San Lorenzo",
+      "color": "Azul"
+    },
+    {
+      "id": 6,
+      "name": "Racing",
+      "color": "Celeste"
+    },
+    {
+      "id": 7,
+      "name": "Huracan",
+      "color": "Blanco"
+    },
+    {
+      "id": 8,
+      "name": "Rosario Central",
+      "color": "Azul"
+    },
+    {
+      "id": 9,
+      "name": "Newells",
+      "color": "Negro"
+    },
+    {
+      "id": 10,
+      "name": "Lanus",
+      "color": "Bordo"
+    }
+  ]
+}
