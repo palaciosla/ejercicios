@@ -46,9 +46,14 @@
       "color": "Negro"
     },
     {
-      "id": 10,
       "name": "Lanus",
-      "color": "Bordo"
+      "color": "Bordo",
+      "id": 1642886183238
+    },
+    {
+      "name": "Banfield",
+      "color": "Verde",
+      "id": 1642887354651
     }
   ]
 }
