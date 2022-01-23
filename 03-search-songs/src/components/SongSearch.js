@@ -25,19 +25,9 @@ const SongSearch = () => {
         helpHTTP().get(artistURL),
         helpHTTP().get(songURL),
       ]);
-      
-      if (artistRes.artists) {
-        setBio(artistRes);
-      } else {
-        setBio(false);
-      }
 
-      if (!songRes.error) {
-        setLyric(songRes);
-      } else {
-        setLyric(false);
-      }
-
+      setBio(artistRes);
+      setLyric(songRes);
       setLoading(false);
     };
 
@@ -50,10 +40,14 @@ const SongSearch = () => {
 
   return (
     <div>
-      <h1>Buscador de Canciones y Artistas</h1>
-      {loading && <Loader />}
-      <SongForm handleSearch={handleSearch} />
-      <SongDetails search={search} lyric={lyric} bio={bio} />
+      <h1 className="titulo-principal">Buscador de Canciones y Artistas</h1>
+      <div class="contenedor">
+        <SongForm handleSearch={handleSearch} />
+        {loading && <Loader />}
+        {search && !loading && (
+          <SongDetails search={search} lyric={lyric} bio={bio} />
+        )}
+      </div>
     </div>
   );
 };

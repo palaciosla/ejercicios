@@ -29,7 +29,7 @@ const SongForm = ({ handleSearch }) => {
 
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="song-form">
         <input
           type="text"
           name="artist"
